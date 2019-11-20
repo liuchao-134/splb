@@ -1,0 +1,53 @@
+.ctboxs{
+	width: 400px;
+	height: 270px;
+	position: relative;
+	overflow: hidden;
+}
+.ctboxs .ctbox{
+	height: 180px;
+	width: 400px;
+	position: absolute;
+	top: 0;
+	transition: 1s linear;
+}
+.ctboxs .ct1{
+	top: 0;
+}
+.ctboxs .ct2{
+	top: 180px;
+}
+.ctboxs .ct3{
+	top: 210px;
+}
+.ctboxs .ct4{
+	top: 240px;
+}
+.ctboxs .ctbox .title{
+	height: 30px;
+	width: 400px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+.ctboxs .ct1 .title{
+	background: rgb(0,0,127);
+}
+.ctboxs .ct2 .title{
+	background: rgb(238,136,0);
+}
+.ctboxs .ct3 .title{
+	background: rgb(126,127,0);
+}
+.ctboxs .ct4 .title{
+	background: rgb(35,97,173);
+}
+.ctboxs .ctbox .content{
+	height: 150px;
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 20px;
+	padding-top: 10px;
+	background: #DDD;
+}
